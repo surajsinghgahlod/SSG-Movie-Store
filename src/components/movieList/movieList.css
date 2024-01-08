@@ -1,0 +1,43 @@
+.movie__list {
+    padding: 0 3rem 3rem 3rem;
+}
+
+.list__title {
+font-size: 1.75rem;
+margin:  2.5rem;
+}
+
+.list__cards {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+
+.pagination-btn-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0 ;
+}
+
+.pagination-button {
+    margin: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    background-color: #ddd;
+    color: #333;
+  }
+  
+  .pagination-button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  button.page-changer-btn{
+    margin: 6px;
+    padding: 3px 6px;
+    border-radius: 4px;
+    border: none;
+  }
